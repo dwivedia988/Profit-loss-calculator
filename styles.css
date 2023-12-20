@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Outfit&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Outfit' , 'sans-serif';
+    font-size: x-large;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(59, 191, 247);
+    padding: 1rem;
+}
+
+@keyframes blinkingBackground{
+  0%		{ background-color: #10c018;}
+  25%		{ background-color: #1056c0;}
+  50%		{ background-color: #ef0a1a;}
+  75%		{ background-color: #254878;}
+  100%	        { background-color: #04a1d5;}
+}
+
+.heading {
+    text-align: center;
+    width: auto;
+    text-shadow: 4px 4px 4px yellow ;
+    padding: 1rem;
+}
+
+label {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+input {
+    text-align: center;
+    width: auto;
+    margin: auto;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5rem; 
+    border-radius: 0.5rem;
+}
+
+button {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    border-color: red;
+    color: red;
+    border-width: 0.3rem;
+    
+}
+
+#output-box {
+    text-align: center;
+    padding: 1rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ /* footer */
+
+ footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  img, li {
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline;
+  }
+  
+  img {
+    width: 50px;
+    padding: 0.4rem;
+  }
