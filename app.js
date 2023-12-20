@@ -16,13 +16,13 @@ function calculateStockProfitAndLoss(){
 
     if (percentageProfitLoss <= -50) {
         angryTheme.style.animation = "blinkingBackground 2s infinite";
-        outputBox.innerText ="Hey! 😡 , the loss is " + profitOrLoss + " and the loss percentage is " + percentageProfitLoss + " %.";
+        outputBox.innerText ="Hey! 😡 , the loss is " + profitOrLoss + " and the loss percentage is " + (percentageProfitLoss * -1) + " %.";
     }
     else {
         if (profitLossPrice > 0){
         outputBox.innerText ="Hey! 🥳 , the profit is " + profitOrLoss + " and the profit percentage is " + percentageProfitLoss + " %."; 
         } else {
-        outputBox.innerText ="Hey! 😡 , the loss is " + profitOrLoss + " and the loss percentage is " + percentageProfitLoss + " %.";
+        outputBox.innerText ="Hey! 😡 , the loss is " + profitOrLoss + " and the loss percentage is " + (percentageProfitLoss * -1) + " %.";
         }  
     }
 
