@@ -4,7 +4,6 @@ const currentPrice = document.querySelector("#current-price");
 const calculateButton = document.querySelector("#calculate-button");
 const outputBox = document.querySelector("#output-box");
 const angryTheme = document.querySelector(".container");
-// const theme = styles.getPropertyValue("background-color");
 
 calculateButton.addEventListener("click", calculateStockProfitAndLoss);
 
